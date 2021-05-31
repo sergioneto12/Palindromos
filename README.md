@@ -4,7 +4,7 @@ https://palindromestest.netlify.app/
 
 # Important: Do you know what palindromes are?
 
-If you did not (until now), I did, either.
+If you did not (until now), I didn't, either.
 But thanks an entry level job test, I discovered it and transformed a little test in a HTML, CSS and mainly Javascript project!
 
 It's very simple to get used to...
