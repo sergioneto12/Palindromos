@@ -1,5 +1,3 @@
-// choose = window.prompt("Qual é o tamanho da lista que você deseja?")
-
 list = [3, 5];
 
 chosen = list[Math.floor(Math.random() * list.length)];
@@ -9,6 +7,10 @@ word = "";
 reverse = "";
 
 function Word() {
+    if (!strings == null) {
+        strings = [];
+    }
+
     if (chosen == 3) {
         listWord = [];
 
@@ -49,6 +51,7 @@ function Word() {
 };
 
 function activate() {
+
     let choose = document.getElementById("entry").value;
     
     while (strings.length <= choose - 1) {
